@@ -1,12 +1,12 @@
 "use client";
 import { useEffect, useState } from "react";
 import Hero from "./components/sections/Hero";
-import FacilitiesPage from "./facilities/page";
 import GalleryPreview from "./components/sections/GalleryPreview";
 import FeedBack from "./components/sections/FeedBack";
 import VideoSection from "./components/sections/VideoSection";
 import InquiryModal from "./components/layout/InquiryModal";
 import LoadingScreen from "./components/ui/LoadingScreen";
+import FacilitiesPage from "./components/sections/Facilities";
 export default function LandingPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [loading, setLoading] = useState(true);
