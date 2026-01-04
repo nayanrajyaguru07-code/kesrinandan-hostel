@@ -39,7 +39,7 @@ export default function Hero({ onInquiryClick }: HeroProps) {
             <span className="text-gray-800 font-medium italic">
               "Ghar thi dur, maru ghar"
             </span>{" "}
-            in the heart of Rajkot.
+            in the heart of <span className="text-orange-500">Bhavnagar</span>.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-10">

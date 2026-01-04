@@ -19,7 +19,7 @@ export default function Navbar() {
         {/* MAIN BAR */}
         <div className="bg-white/95 backdrop-blur-2xl border border-white/40 rounded-[32px] px-6 py-4 flex justify-between items-center shadow-[0_20px_50px_rgba(0,0,0,0.08)]">
           {/* LOGO SECTION - BREAKOUT STYLE */}
-          <div className="flex items-center gap-5">
+          <div className="flex items-center gap-2">
             {/* The Logo: Increased to w-24 (96px) on desktop */}
             <div className="relative w-20 h-20 sm:w-24 sm:h-24 -my-8 transition-transform hover:scale-110 duration-500 ease-out z-10">
               <Image
@@ -72,9 +72,9 @@ export default function Navbar() {
             {/* Mobile Toggle */}
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden w-14 h-14 flex items-center justify-center text-gray-900 bg-white border-2 border-gray-100 rounded-[20px] shadow-sm active:bg-gray-50 transition-all"
+              className="lg:hidden w-12 h-12 flex items-center justify-center text-gray-900 bg-white border-2 border-gray-100 rounded-[20px] shadow-sm active:bg-gray-50 transition-all"
             >
-              {isOpen ? <X size={28} /> : <Menu size={28} />}
+              {isOpen ? <X size={25} /> : <Menu size={25} />}
             </button>
           </div>
         </div>
