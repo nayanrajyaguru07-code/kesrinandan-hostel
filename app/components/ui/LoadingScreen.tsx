@@ -9,7 +9,7 @@ interface LoadingScreenProps {
 export default function LoadingScreen({ onFinished }: LoadingScreenProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const homeIconRef = useRef<HTMLDivElement>(null);
-  const brandName = "KESRINANDAN";
+  const brandName = "KESARINANDAN";
 
   useEffect(() => {
     const tl = gsap.timeline({

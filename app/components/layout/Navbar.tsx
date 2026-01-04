@@ -33,7 +33,7 @@ export default function Navbar() {
 
             <div className="flex flex-col justify-center ml-2">
               <h1 className="font-[900] text-gray-900 tracking-tighter text-2xl sm:text-3xl leading-[0.75]">
-                Kesrinandan
+                Kesarinandan
               </h1>
               <div className="flex items-center gap-1.5 mt-1.5">
                 <div className="bg-orange-500 rounded-full p-0.5">
